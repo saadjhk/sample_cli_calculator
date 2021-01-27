@@ -25,7 +25,7 @@ fn main() {
             println!("{} - {}: {}", integer_one, integer_two, substract_from_number(integer_one, integer_two));
         } else if user_input.trim() == "+" {
             println!("Sum: {}", add_two_numbers(integer_one, integer_two));
-        } else if user_input.trim() == "*/" {
+        } else if user_input.trim() == "/" {
             println!("{} / {}: {}", integer_one, integer_two, divide_num_by_num(integer_one, integer_two));
         } else if user_input.trim() == "exit" {
             break;
